@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SuperMarket Design - N.Pavan Kumar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.5.0/css/flag-icons.min.css" integrity="sha512-+WVTaUIzUw5LFzqIqXOT3JVAc5SrMuvHm230I9QAZa6s+QRk8NDPswbHo2miIZj3yiFyV9lAgzO1wVrjdoO4tw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <script>
+  AOS.init();
+</script>
+<div class="fixedbutton">
+<button class="btn btn-dark ">Get Rs.100</button>
+</div>
+  <div class="bg-body-secondary">
+    <div class="d-flex container">
+      <div class="col-6">
+        <p class="mt-1 mb-0">Super Value Deals - Save more with coupons</p>
+      </div>
+      <div class="col-6 d-flex justify-content-end">
+        <div class="dropdown btn-group">
+          <button style="font-size: 14px;" class="btn btn-outline-tertiary dropdown-toggle" data-bs-toggle="dropdown"><span class="fi fi-gb"></span> English</button>
+          <ul class="dropdown-menu">
+            <li><a href="" style="font-size: 14px;" class="dropdown-item"><span class="fi fi-gb"></span> English</a></li>
+            <li><a href="" style="font-size: 14px;" class="dropdown-item"><span class="fi fi-fr"></span> French</a></li>
+            <li><a href="" style="font-size: 14px;" class="dropdown-item"><span class="fi fi-de"></span> German</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="navbar navbar-expand-lg bg-body-white">
+    <div class="container">
+    <div class="col-2">
+      <a href="" class="navbar-brand"><img src="./images/freshcart.avif" class="w-100" alt=""></a>
+    </div>
+
+    <div class="col-8 btn btn-group">
+      <form class="d-flex w-100" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" />
+      </form>
+      <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    
+    <div class="col-1 d-flex justify-content-end">
+      <i class="fa-solid fa-user"></i>
+      &nbsp;&nbsp;&nbsp;
+      <i class="fa-solid fa-cart-plus"></i>
+    </div>
+
+    </div>
+  </div>
+
+  <div class="navbar navbar-expand-lg">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown">
+              <button class="btn btn-success"><i class="fa-regular fa-window-maximize"></i> All Departments</button>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Dairy, Bread and Eggs</a></li>
+              <li><a class="dropdown-item" href="#">Snacks and Munchies</a></li>
+              <li><a class="dropdown-item" href="#">Fruits and Vegetables</a></li>
+              <li><a class="dropdown-item" href="#">Cold Drinks and Juices</a></li>
+              <li><a class="dropdown-item" href="#">Breakfast and Instant food</a></li>
+              <li><a class="dropdown-item" href="#">Bakery and Biscuits</a></li>
+              <li><a class="dropdown-item" href="#">Chicken, Meat and Fish</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown mt-lg-2">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Home
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Home 1</a></li>
+              <li><a class="dropdown-item" href="#">Home 2</a></li>
+              <li><a class="dropdown-item" href="#">Home 2</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item  mt-lg-2 dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Shop
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Shop Grid</a></li>
+              <li><a class="dropdown-item" href="#">Shop Single</a></li>
+              <li><a class="dropdown-item" href="#">Shop Checkout</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link mt-lg-2" href="#">Store</a>
+          </li>
+
+          <li class="nav-item mt-lg-2 dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Mega-Menu
+            </a>
+            <ul class="dropdown-menu">
+              <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <li><a class="dropdown-item" href="#">Shop Grid</a></li>
+                  <li><a class="dropdown-item" href="#">Shop Single</a></li>
+                  <li><a class="dropdown-item" href="#">Shop Checkout</a></li>    
+                </div>
+                <div class="col-4">
+                  <li><a class="dropdown-item" href="#">Shop Grid2</a></li>
+                  <li><a class="dropdown-item" href="#">Shop Single2</a></li>
+                  <li><a class="dropdown-item" href="#">Shop Checkout2</a></li> 
+                </div>   
+                <div class="col-4">
+                  <li><a class="dropdown-item" href="#">Shop Grid2</a></li>
+                  <li><a class="dropdown-item" href="#">Shop Single2</a></li>
+                  <li><a class="dropdown-item" href="#">Shop Checkout2</a></li>    
+                </div>
+              </div>
+              </div>
+              
+              <!-- <li><a class="dropdown-item" href="#">Shop Grid</a></li>
+              <li><a class="dropdown-item" href="#">Shop Single</a></li>
+              <li><a class="dropdown-item" href="#">Shop Checkout</a></li> -->
+            </ul>
+          </li>
+
+          <li class="nav-item mt-lg-2 dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">pages</a></li>
+              <li><a class="dropdown-item" href="#">pages</a></li>
+              <li><a class="dropdown-item" href="#">pages</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item mt-lg-2 dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Accounts
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">account Grid</a></li>
+              <li><a class="dropdown-item" href="#">account Single</a></li>
+              <li><a class="dropdown-item" href="#">account Checkout</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item mt-lg-2 dropdown">
+            <a class="nav-link">
+              Docs
+            </a>
+          </li>
+
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="container card border-0 col-lg-12 col-md-6">
+    <img src="./images/slide-1.jpg" class="card-img col-lg-12 col-md-6" alt="">
+    <div class="m-5 p-3 card-img-overlay col-lg-12 col-md-6">
+      <h6 class="card-text"><mark class="bg-warning">Opening Sale Discount 50%</mark></h6>
+      <h1 class="card-title">Super Market for Fresh Grocery</h1>
+      <p class="card-text ">Introducing a new model for online grocery shopping and convenient home delivery</p>
+      <button class="btn btn-dark">Shop Now</button>
+    </div>
+  </div>
+  <br><br>
+  <div class="container">
+    <h3>Featured Categories</h3>
+    <br><br>
+
+    <div class="row highlighthover">
+      <div class="col-lg-2 col-md-4 col-12 highlighthover">
+        <img src="./images/category-dairy-bread-eggs.avif" alt="">
+        <p class="p-2 small_bold_font">Daily, Bread and Eggs</p>
+      </div>
+      <div class="col-lg-2 col-md-4 col-12">
+        <img src="./images/category-snack-munchies.avif" alt="">
+        <p class="p-2 small_bold_font">Snack & Munchies</p>
+      </div>
+      <div class="col-lg-2 col-md-4 col-12">
+        <img src="./images/category-bakery-biscuits.webp" alt="">
+        <p class="p-2 small_bold_font">Bakery & Biscuits</p>
+      </div>
+      <div class="col-lg-2 col-md-4 col-12">
+        <img src="./images/category-instant-food.avif" alt="">
+        <p class="p-2 small_bold_font">Instant Food</p>
+      </div>
+      <div class="col-lg-2 col-md-4 col-12">
+        <img src="./images/category-tea-coffee-drinks.webp" alt="">
+        <p class="p-2 small_bold_font">Tea, Coffee & Drinks</p>
+      </div>
+      <div class="col-lg-2 col-md-4 col-12">
+        <img src="./images/category-atta-rice-dal.jpg" alt="">
+        <p class="p-2 small_bold_font">Atta, Rice & Dhal</p>
+      </div>
+      <br><br>
+      <div class="gap-2 d-flex h_light border-0">
+        <div class="col-lg-6 col-12 hoverdetail">
+          <div class="card border-0 zoom-in">
+            <img src="./images/buns.jpg" class="card-img w-100" alt="">
+            <div class="card-img-overlay p-5">
+              <h3 class="card-title">Freshly baked buns</h3>
+              <p>upto 25% off</p>
+              <button class="btn btn-dark">Shop Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 hoverdetail">
+          <div class="card border-0 zoom-in">
+            <img src="./images/veggies.png" class="card-img w-100" alt="">
+            <div class="card-img-overlay p-5">
+              <h3 class="card-title">Fruits and Vegetables</h3>
+              <p>upto 30% off</p>
+              <button class="btn btn-dark">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <br><br>
+
+  <div class="container">
+    <h3>Popular Products</h3>
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="card border-1 highlighthover my-2">
+          <div class="card-body">
+            <img src="./images/product-img-13 (1).webp" class="w-100" alt="">
+            <h5>Golden Pineapple</h5>
+            <div class="small_bold_font">
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa-regular fa-star-half-stroke text-warning"></i>
+              <i class="fa fa-star text-secondary"></i>
+              <span>(4)</span>
+              <br>
+            </div>
+            <p>From $13.00</p>
+            <button class="btn btn-success"> + Choose Options</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card  p-1 border-1 highlighthover my-2">
+          <div class="card-body">
+            <img src="./images/cadbury-chocolate.webp" class="w-100" alt="">
+            <h5>Cadbury Chocolate</h5>
+            <div class="small_bold_font">
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-secondary"></i>
+              
+              <span>(1)</span>
+              <br>
+            </div>
+            <p>From $10.00</p>
+            <button class="btn btn-success"> + Add to Cart</button>
+          </div>
+        </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card  border-1 highlighthove my-2">
+        <div class="card-body">
+          <img src="./images/banana.webp" class="w-100" alt="">
+          <h5>Fresh Banana</h5>
+          <div class="small_bold_font">
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <span>(1)</span>
+            <br>
+          </div>
+          <p>$18.00 <s>$25.00</s></p>
+          <button class="btn btn-success"> + Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+    <div class="card  border-1 highlighthover my-2">
+      <div class="card-body">
+        <img src="./images/popcorn.webp" class="w-100" alt="">
+        <h5>Instant Popcorn</h5>
+        
+        <div class="small_bold_font">
+          <i class="fa fa-star text-warning"></i>
+          <i class="fa fa-star text-warning"></i>
+          <i class="fa fa-star text-warning"></i>
+          <i class="fa-regular fa-star-half-stroke text-warning"></i>
+          <i class="fa fa-star text-secondary"></i>
+          <span>(2)</span>
+          <br>
+        </div>
+        <p>From $17.00</p>
+        <button class="btn btn-success"> + Add to Cart</button>
+      </div>
+    </div>
+    </div>
+
+    <div class="col-lg-3">
+      <div class="card border-1 highlighthover my-2">
+        <div class="card-body">
+          <img src="./images/product-img-7-1.webp" class="w-100" alt="">
+          <h5>britannia Cheese Slices</h5>
+          <div class="small_bold_font">
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa-regular fa-star-half-stroke text-warning"></i>
+            <i class="fa fa-star text-secondary"></i>
+            <span>(1)</span>
+            <br>
+          </div>
+          <p>From $12.00</p>
+          <button class="btn btn-success"> + Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card  border-1 highlighthover my-2">
+        <div class="card-body">
+          <img src="./images/blueberry-greek-yogurt.webp" class="w-100" alt="">
+          <h5>Blueberry Greek Yogurt</h5>
+        
+          <div class="small_bold_font">
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <span>(1)</span>
+            <br>
+          </div>
+          <p>From $13.00</p>
+          <button class="btn btn-success"> + Choose Options</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3">
+      <div class="card border-1 highlighthover my-2">
+        <div class="card-body">
+          <img src="./images/haldiram.webp" class="w-100" alt="">
+          <h5>Haldiram Sev Bhujia</h5>
+          
+          <div class="small_bold_font">
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <span>(1)</span>
+            <br>
+          </div>
+          <p>From $10.00</p>
+          <button class="btn btn-success"> + Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3">
+    <div class="card  border-1 highlighthove my-2">
+      <div class="card-body">
+        <img src="./images/crushed-tomatoes.webp" class="w-100" alt="">
+
+        <h5>Crushed Tomatoes</h5>
+        
+        <div class="small_bold_font">
+          <i class="fa fa-star text-warning"></i>
+          <i class="fa fa-star text-warning"></i>
+          <i class="fa fa-star text-secondary"></i>
+          <i class="fa fa-star text-secondary"></i>          
+          <i class="fa fa-star text-secondary"></i>
+          <span>(1)</span>
+          <br>
+        </div>
+        <p>From $18.00</p>
+        <button class="btn btn-success"> + Choose Options</button>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  </div>
+
+  <br><br>
+  <div class="container">
+    <h3>Daily Best Sells</h3>
+    <div class="row">
+      <div class="card col-lg-3 col-md-6 col-12 border-0">
+        <img src="./images/banner-deal.jpg" class="card-img rounded-3" alt="">
+        <div class="card-img-overlay">
+          <h3 class="card-title text-light m-2 mt-5">100% Organic Coffee Beans</h3>
+          <p class="card-text text-light m-2">get the deal before close</p>
+          <button class="btn btn-success m-2">Shop Now</button>
+        </div>
+      </div>
+
+    <!-- <div class="card col-lg-3 shadow">
+      <div class="card-body">
+        <img src="./images/beetroot.webp" class="w-100" alt="">
+      </div>
+      <div class="border-0">
+        <h5>Beetroot</h5>
+        <p>4 stars</p>
+        <p>From $13.00</p>
+        <button class="btn btn-success"> + Choose Options</button>
+      </div>
+      <br>
+    </div> -->
+
+    <div class="col-lg-3 col-md-6 col-12 h1hover ">
+      <div class="card">
+        <img src="" alt="">
+        <div class="card-body">
+          <img src="./images/beetroot.webp" class="w-100" alt="">
+          <h5>Beetroot</h5>
+          <div class="small_bold_font">
+          <i class="fa fa-star text-warning"></i>
+          <i class="fa fa-star text-warning"></i>
+          <i class="fa fa-star text-warning"></i>
+          <i class="fa fa-star text-warning"></i>
+          <i class="fa fa-star text-secondary"></i>
+          <span>(1)</span>
+          <br>
+          </div>
+          <p>From $18.00 <s>$25.00</s></p>
+          <button class="btn btn-success"> + Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-6 col-12 h1hover">
+      <div class="card">
+        <img src="" alt="">
+        <div class="card-body">
+          <img src="./images/apple.webp" class="w-100" alt="">
+          <h5>Fresh Apples</h5>
+          <div class="small_bold_font">
+          <i class="fa fa-star text-warning"></i>
+          <i class="fa fa-star text-warning"></i>
+          <i class="fa fa-star text-warning"></i>
+          <i class="fa fa-star text-warning"></i>
+          <i class="fa fa-star text-secondary"></i>
+          <span>(1)</span>
+          <br>
+          </div>
+          <p>From $240.00</p>
+          <button class="btn btn-success"> + Choose Options</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- <div class="card col-lg-3 shadow">
+      <div class="card-body">
+        <img src="./images/apple.webp" class="w-100" alt="">
+      </div>
+      <div class="border-0">
+        <h5>Fresh Apples</h5>
+        <p>4 stars</p>
+        <p>From $13.00</p>
+        <button class="btn btn-success"> + Choose Options</button>
+      </div>
+      <br>
+    </div> -->
+        <!-- <div class="card col-lg-3 shadow">
+      <div class="card-body">
+        <img src="./images/popcorn.webp" class="w-100" alt="">
+      </div>
+      <div class="border-0">
+        <h5>Instant Popcorn</h5>
+        <p>4 stars</p>
+        <p>From $13.00</p>
+        <button class="btn btn-success"> + Choose Options</button>
+      </div>
+      <br>
+    </div> -->
+    <div class="col-lg-3 col-md-6 col-12 h1hover">
+      <div class="card">
+        <img src="" alt="">
+        <div class="card-body">
+          <img src="./images/popcorn.webp" class="w-100" alt="">
+          <h5>Popcorn</h5>
+          <div class="small_bold_font">
+          <i class="fa fa-star text-warning"></i>
+          <i class="fa fa-star text-warning"></i>
+          <i class="fa fa-star text-warning"></i>
+          <i class="fa-regular fa-star-half-stroke text-warning"></i>
+          <i class="fa fa-star text-secondary"></i>
+          <span>(2)</span>
+          <br>
+          </div>
+          <p>From $7.00</p>
+          <button class="btn btn-success"> + Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="container">
+    
+    <div class="row">
+      <br><br><br>
+      <div class="card col-lg-3 col-md-6 border-0">
+        <br>
+        <h1><i class="fa-solid fa-clock text-success"></i></h1>
+        <br>
+        <h5>10 minute grocery now</h5>
+        <p>Get your order delivered to your doorstep at the earliest from FreshCart pickup stores near you.</p>
+        <br>
+      </div>
+      <div class="card  col-lg-3 col-md-6  border-0">
+        <br>
+        <h1><i class="fa-solid fa-gift text-success"></i></h1>
+        <br>
+        <h5>Best Prices & Offers</h5>
+        <p>Cheaper prices than your local supermarket, great cashback offers to top it off. Get best pricess & offers.</p>
+        <br>
+      </div>
+      <div class="card  col-lg-3 col-md-6  border-0">
+        <br>
+        <h1><i class="fa-solid fa-box text-success"></i></h1>
+        <br>
+        <h5>Wide Assortment</h5>
+        <p>Choose from 5000+ products across food, personal care, household, bakery, veg and non-veg & other categories.</p>
+        <br>
+      </div>
+      <div class="card  col-lg-3 col-md-6  border-0">
+        <br>
+        <h1><i class="fa-solid fa-arrows-turn-to-dots text-success"></i></h1>
+        <br>
+        <h5>Easy Returns</h5>
+        <p>Not satisfied with a product? Return it at the doorstep & get a refund within hours. No questions asked <mark class="bg-white text-success">policy</mark></p>
+        <br>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="bg-success-subtle">
+    <br><br>
+  <div class="container" style="font-size: 14px;">
+
+    <div class="row" style="line-height: 2px;">
+      <div class="col-lg-2 col-md-3">
+        <h5>Categories</h5>
+        <p>Vegetables & Fruits</p>
+        <p>Breakfast & instant food</p>
+        <p>Bakery & Biscuits</p>
+        <p>Atta, rice & dal</p>
+        <p>Sauces & spreads</p>
+        <p>Organic & gourmet</p>
+        <p>Baby care</p>
+        <p>Cleaning essentials</p>
+        <p>Personal care</p>
+      </div>
+      <div class="col-lg-2 col-md-3">
+        <br><br><br><br>
+        <p>Dairy, bread & eggs</p>
+        <p>Cold drinks & juices</p>
+        <p>Tea, coffee & drinks</p>
+        <p>Masala, oil & more</p>
+        <p>Chicken, meat & fish</p>
+        <p>Paan corner</p>
+        <p>Pharma & wellness</p>
+        <p>Home & office</p>
+        <p>Pet care</p>
+      </div>
+      <div class="col-lg-2 col-md-3">
+        <h5>Get to know us</h5>
+        <p>Company</p>
+        <p>About</p>
+        <p>Blog</p>
+        <p>Help Center</p>
+        <p>Our Value</p>
+      </div>
+      <div class="col-lg-2 col-md-3">
+        <h5>For Consumers</h5>
+        <p>Payments</p>
+        <p>Shipping</p>
+        <p>Product Returns</p>
+        <p>Shop Checkout</p>
+      </div>
+      <div class="col-lg-2 col-md-3">
+        <h5>Become a Shopper</h5>
+        <p>Shopper Opportunities</p>
+        <p>Become a Shopper</p>
+        <p>Earnings</p>
+        <p>Ideas & Guides</p>
+        <p>New Retailers</p>
+      </div>
+      <div class="col-lg-2 col-md-3">
+        <h5>Freshcart programs</h5>
+        <p>Freshcart programs</p>
+        <p>Gift Cards</p>
+        <p>Promos & Coupons</p>
+        <p>Freshcart Ads</p>
+        <p>Careers</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <hr>
+  </div>
+  <div class="container d-flex justify-content-between align-items-center" style="font-size: 14px;">
+    <div class=" d-flex justify-content-start gap-4">
+      <p>Payment Partners</p>
+      <h5><i class="fa-brands fa-cc-visa"></i></h5>
+      <h5><i class="fa-brands fa-cc-mastercard"></i></h5>
+      <h5><i class="fa-brands fa-cc-amex"></i></h5>
+      <h5><i class="fa-brands fa-cc-paypal"></i></h5>
+      <h5><i class="fa-brands fa-cc-diners-club"></i></h5>
+      <h5><i class="fa-brands fa-cc-discover"></i></h5>
+    </div>
+    <br><br>
+    <div class="d-flex justify-content-end align-items-center gap-2">
+      <p class="my-lg-4">Get deliveries with FreshCart</p>
+      <img src="./images/appstore-btn.svg" class="w-25" alt="">
+      <img src="./images/googleplay-btn.svg" class="w-25" alt="">
+    </div>
+  </div>
+  <div class="container">
+    <hr>
+  </div>
+  <div class="container d-flex" style="font-size: 14px;">
+    <div class="col-6">
+      <p>Copyright © 2025. All rights reserved. Developed by N.Pavan Kumar</p>
+    </div>
+    <div class="col-6  d-flex justify-content-end">
+      <p>follow us on</p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <h5><i class="fa-brands fa-facebook" style="color: #74C0FC;"></i></h5>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <h5><i class="fa-brands fa-twitter" style="color: #74C0FC;"></i></h5>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <h5><i class="fa-brands fa-instagram" style="color: #B197FC;"></i></h5>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
+
+

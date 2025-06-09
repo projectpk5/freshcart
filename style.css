@@ -1,0 +1,47 @@
+/* Vertical Button */
+*{
+    margin: 0;
+    padding:0;
+}
+.fixedbutton {
+    position: fixed;
+    /* right: 0px; */
+    bottom: 50%;
+    transform: rotate(-270deg);
+}
+
+/* Box Hover for Products */
+
+.highlighthover:hover {
+    border-color: greenyellow;
+    box-shadow: 3px;
+}
+
+/* Create smaller bolder fonts */
+
+.small_bold_font {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Hover to Enlarge */
+
+.h_light{
+    overflow: hidden;
+}
+
+.h_light > .hoverdetail {
+    transition-duration: 2s;
+    /* overflow: hidden;  */
+}
+
+.h_light > .hoverdetail:hover {
+    transform: scale(1.1);
+}
+
+/*  */
+
+.h1hover:hover .card {
+    border-color: green;
+    box-shadow: 5px;
+}
